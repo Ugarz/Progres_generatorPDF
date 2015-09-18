@@ -21,6 +21,9 @@ node index.js
 ```
 
 ## Workflow
+
 [x] ~~Créer un pdf avec pdf-kit~~
+
 [] Ajouter MomentJS et gérer des variable pour génrer les dates dynamiquement.
+
 [] Faire une interface pour contoler le tout.
