@@ -1,9 +1,9 @@
-# Comment générer un pdf avec NodeJS et MomentJS et pdf-kit ?
+# Comment générer un pdf avec NodeJS, MomentJS et pdf-kit ?
 Ce repo accompagne un [article de mon blog](http://ugoarzur.fr/2015/09/17/generer-un-pdf-avec-nodejs/). Il vous permet de récupérer un code en NodeJS pour générer un pdf en NodeJS et avec les librairies MomentJS et pdf-kit.
 
 ## Instructions
 En partant du principe que vous avez une version de NodeJS installée sur votre OS opérationnelle.
-Ouvre un terminal et suivez les instructions.
+Ouvrez un terminal et suivez les instructions.
 
 ### On récupère le projet
 ```bash
@@ -24,6 +24,6 @@ node index.js
 
 [x] ~~Créer un pdf avec pdf-kit~~
 
-[ ] Ajouter MomentJS et gérer des variable pour générer les dates dynamiquement.
+[x] ~~Ajouter MomentJS et gérer des variables pour générer les dates dynamiquement.~~
 
 [ ] Faire une interface pour contoler le tout.
