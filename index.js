@@ -18,7 +18,7 @@ var date = moment().date(); // of the month
 
 /*----------  Create pdf  ----------*/
 doc = new PDFDocument;
-doc.pipe(fs.createWriteStream('output.pdf'));
+doc.pipe(fs.createWriteStream('pdf_sortie.pdf'));
 
 moment().format();
 doc.fontSize(10);
