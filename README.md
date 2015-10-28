@@ -25,5 +25,3 @@ node index.js
 [x] ~~Créer un pdf avec pdf-kit~~
 
 [x] ~~Ajouter MomentJS et gérer des variables pour générer les dates dynamiquement.~~
-
-[ ] Faire une interface pour contoler le tout.
