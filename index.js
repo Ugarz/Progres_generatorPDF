@@ -1,11 +1,16 @@
 var fs = require('fs');
 var PDFDocument = require('pdfkit');
 var moment = require('moment');
-moment.locale('fr');
+
+var localLocale = moment();
+
+localLocale.locale('fr'); // set this instance to use French
+localLocale.format('LLLL'); // dimanche 15 juillet 2012 11:01
+
 
 
 /*----------  Variables  ----------*/
-var CurrentDate = moment().format("MMMM");
+var CurrentDate = localLocale.format('LL');
 
 var sec = moment().second();
 var min = moment().minute();
@@ -22,7 +27,7 @@ doc.pipe(fs.createWriteStream('pdf_sortie.pdf'));
 
 moment().format();
 doc.fontSize(10);
-doc.text('Nous sommes actuellement en '+ CurrentDate + '. Il est ' + fullHour);
+doc.text('Nous sommes actuellement le '+ CurrentDate + '. Il est ' + fullHour);
 doc.text('Nous sommes le '+ day + 'e jour de la semaine !');
 doc.fontSize(15);
 doc.text('\n');
