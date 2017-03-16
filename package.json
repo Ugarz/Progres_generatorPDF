@@ -11,6 +11,6 @@
   "license": "ISC",
   "devDependencies": {
     "moment": "^2.10.6",
-    "pdfkit": "^0.8"
+    "pdfkit": "0.8"
   }
 }

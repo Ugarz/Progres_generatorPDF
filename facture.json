@@ -1,0 +1,9 @@
+{
+    "informations": {
+        "type": "Facture",
+        "date": "2017-03-15"
+    },
+    "user1": "John Doe",
+    "user2": "Jane Doe",
+    "datas": []
+}
