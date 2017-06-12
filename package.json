@@ -4,8 +4,9 @@
   "description": "A pdf generator",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "clear": "npm run clearPdf",
+    "clearPdf": "rm -rf ./pdfs/*.pdf"
   },
   "author": "ugo",
   "license": "ISC",

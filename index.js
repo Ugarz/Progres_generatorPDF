@@ -30,7 +30,7 @@ function paragraphe({ data : text, }){
 function createpdf(document){
     console.log('\n **** Création du pdf:')
     doc = new PDFDocument;
-    doc.pipe(fs.createWriteStream('pdf_sortie.pdf'));
+    doc.pipe(fs.createWriteStream(`./pdfs/pdf_sortie${moment().format('LLL')}.pdf`));
 
 
     doc.fontSize(20)
